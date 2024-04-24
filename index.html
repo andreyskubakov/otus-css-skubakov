@@ -13,10 +13,10 @@
         <p>Mod</p>
         <nav>
             <ul>
-                <li><a href="#">Biography</a></li>
-                <li><a href="#">Designers</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Strong points</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#designers">Designers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#strong-points">Strong points</a></li>
             </ul>
         </nav>
     </header>
@@ -30,7 +30,7 @@
         <img src="./image/h1-background.jpg" alt="Фон заголовка">
 
         <!-- Блок о  Katya Mills-->
-        <section class="biography">
+        <section class="biography" id="biography">
             <img src="./image/woman-in-heater.jpg" alt="Женщина в шляпе на песке">
             <p>Biography</p>
 
@@ -45,7 +45,10 @@
         </section>
 
         <!-- Блок о  дизайнерах-->
-        <section class="designers">
+        <section class="designers" id="designers">
+
+            <h3>Designers</h3>
+
             <img src="./image/woman-in-a-hat.jpg" alt="Женщина с шапке">
             <p>Jess Wonder<br>
                 From/ Be more flower<br>
@@ -64,7 +67,9 @@
         </section>
 
         <!-- Блок о кофейне -->
-        <section class="coffee-house">
+        <section class="coffee-house" id="testimonials">
+            <h3>Testimonials</h3>
+
             <p>Creativity</p>
             <a href="#">www.whitepapers.com</a>
 
@@ -76,14 +81,15 @@
 
             <img src="./image/coffee-house.jpg" alt="Фото кофейни">
 
-            <p>I just really want to do good work and work with some great people, people who challenge me.</p>
+            <blockquote>I just really want to do good work and work with some great people, people who challenge me.
+            </blockquote>
             <img src="./image/bag.jpg" alt="Сумка в руке девушки">
 
         </section>
 
-        <section class="strong-points">
+        <section class="strong-points" id="strong-points">
 
-            <p>Strong points</p>
+            <h3>Strong points</h3>
             <img src="./image/laptop-on-table.jpg" alt="Ноутбук на столе">
             <img src="./image/sfot-chair.jpg" alt="Мягкое кресло">
 
@@ -110,8 +116,11 @@
     </main>
 
     <footer>
-        <p>+7 921 123-45-67<br>
-            info@modstudio.com</p>
+
+        <address>
+            <p>+7 921 123-45-67</p><br>
+            <a href="mailto:info@modstudio.com">info@modstudio.com</a>
+        </address>
 
         <p>A product of MOD</p>
 
