@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
     <title>Mod Studio</title>
 </head>
 
 <body>
     <!-- Меню -->
     <header>
-        <p>Mod</p>
+        <p class="logo-name">Mod</p>
         <nav>
-            <ul>
-                <li><a href="#biography">Biography</a></li>
-                <li><a href="#designers">Designers</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#strong-points">Strong points</a></li>
+            <ul class="navbar">
+                <li class="navbar-item"><a href="#biography">Biography</a></li>
+                <li class="navbar-item"><a href="#designers">Designers</a></li>
+                <li class="navbar-item"><a href="#testimonials">Testimonials</a></li>
+                <li class="navbar-item"><a href="#strong-points">Strong points</a></li>
             </ul>
         </nav>
     </header>
@@ -25,20 +32,21 @@
     <main>
 
         <h1>Mod Studio</h1>
-        <p>Modern Web Studio</p>
+        <p class="h1-paragraph">Modern Web Studio</p>
 
         <img src="./image/h1-background.jpg" alt="Фон заголовка">
 
         <!-- Блок о  Katya Mills-->
         <section class="biography" id="biography">
             <img src="./image/woman-in-heater.jpg" alt="Женщина в шляпе на песке">
-            <p>Biography</p>
+            <p class="biography-paragraph">Biography</p>
 
             <h2>Katya<br> Mills</h2>
-            <p>Art Director<br>
+            <p class="h2-paragraph">Art Director<br>
                 Scenography / Styling / Creative Photography / Design</p>
 
-            <blockquote>“The more I deal with the work<br> as something that is my own,<br> as something that is
+            <blockquote class="biography-blockquote">“The more I deal with the work<br> as something that is my own,<br>
+                as something that is
                 personal,<br> the
                 more successful it
                 is.”</blockquote>
@@ -50,19 +58,25 @@
             <h3>Designers</h3>
 
             <img src="./image/woman-in-a-hat.jpg" alt="Женщина с шапке">
-            <p>Jess Wonder<br>
-                From/ Be more flower<br>
-                Skills/ Design Strategy / Marketing</p>
+            <p class="designer-name">Jess Wonder</p><br>
+            <p class="designer-name-p">
+                <span class="designer-from">From/</span> Be more flower<br>
+                <span class="designer-skills">Skills/</span> Design Strategy / Marketing
+            </p>
 
             <img src="./image/woman-with-bag.jpg" alt="Женщина с сумкой">
-            <p>Kameron Clein<br>
-                From/ Be more flower<br>
-                Skills/ Design Strategy / Marketing</p>
+            <p class="designer-name">Kameron Clein</p><br>
+            <p class="designer-name-p">
+                <span class="designer-from">From/</span> Be more flower<br>
+                <span class="designer-skills">Skills/</span> Design Strategy / Marketing
+            </p>
 
             <img src="./image/woman-with-books.jpg" alt="Женщина с книгами">
-            <p>LOUISSE RED<br>
-                From/ Be more flower<br>
-                Skills/ Design Strategy / Marketing</p>
+            <p class="designer-name">Louisse red</p><br>
+            <p class="designer-name-p">
+                <span class="designer-from">From/</span> Be more flower<br>
+                <span class="designer-skills">Skills/</span> Design Strategy / Marketing
+            </p>
 
         </section>
 
@@ -70,18 +84,19 @@
         <section class="coffee-house" id="testimonials">
             <h3>Testimonials</h3>
 
-            <p>Creativity</p>
-            <a href="#">www.whitepapers.com</a>
+            <p class="creativity-p">Creativity</p>
+            <a href="#" class="creativity-link">www.whitepapers.com</a>
 
-            <p>Creativity</p>
-            <a href="#">www.whitepapers.com</a>
+            <p class="creativity-p">Creativity</p>
+            <a href="#" class="creativity-link">www.whitepapers.com</a>
 
-            <p>Website</p>
-            <a href="#">www.whitepapers.com</a>
+            <p class="website-p">Website</p>
+            <a href="#" class="website-link">www.whitepapers.com</a>
 
             <img src="./image/coffee-house.jpg" alt="Фото кофейни">
 
-            <blockquote>I just really want to do good work and work with some great people, people who challenge me.
+            <blockquote class="testimonials-blockquote">I just really want to do good work and work with some great
+                people, people who challenge me.
             </blockquote>
             <img src="./image/bag.jpg" alt="Сумка в руке девушки">
 
@@ -93,19 +108,19 @@
             <img src="./image/laptop-on-table.jpg" alt="Ноутбук на столе">
             <img src="./image/sfot-chair.jpg" alt="Мягкое кресло">
 
-            <h3>Strengths</h3>
+            <h3 class="strengths">Strengths</h3>
             <nav>
-                <ul>
-                    <li>Interiors</li>
-                    <li>Outdoors</li>
-                    <li>Portraits</li>
-                    <li>Styling</li>
-                    <li>Events</li>
-                    <li>Architecture</li>
-                    <li>Design</li>
-                    <li>Celebrations</li>
-                    <li>Fashion</li>
-                    <li>Nature</li>
+                <ul class="navbar-strengths">
+                    <li class="navbar-strengths-item">Interiors</li>
+                    <li class="navbar-strengths-item">Outdoors</li>
+                    <li class="navbar-strengths-item">Portraits</li>
+                    <li class="navbar-strengths-item">Styling</li>
+                    <li class="navbar-strengths-item">Events</li>
+                    <li class="navbar-strengths-item">Architecture</li>
+                    <li class="navbar-strengths-item">Design</li>
+                    <li class="navbar-strengths-item">Celebrations</li>
+                    <li class="navbar-strengths-item">Fashion</li>
+                    <li class="navbar-strengths-item">Nature</li>
                 </ul>
             </nav>
 
@@ -118,13 +133,13 @@
     <footer>
 
         <address>
-            <p>+7 921 123-45-67</p><br>
-            <a href="mailto:info@modstudio.com">info@modstudio.com</a>
+            <p class="phone-number">+7 921 123-45-67</p><br>
+            <a href="mailto:info@modstudio.com" class="e-mail">info@modstudio.com</a>
         </address>
 
-        <p>A product of MOD</p>
+        <p class="footer-product">A product of <span class="footer-mod">Mod</span></p>
 
-        <p>© 2023 Mod Media. All rights reserved</p>
+        <p class="footer-rights">© 2023 Mod Media. All rights reserved</p>
     </footer>
 
 </body>
