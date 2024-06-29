@@ -874,3 +874,13 @@
          margin-left: 5vw;
      }
  }
+
+
+@media (width: 768px) { 
+ 
+     .designers__list, 
+     .strong-points { 
+         overflow-x: scroll; 
+     } 
+ 
+ }
