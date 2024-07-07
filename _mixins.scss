@@ -1,0 +1,17 @@
+@mixin fontPlayfairDisplay ($fs, $fw) {
+    font-size: $fs;
+    font-weight: $fw;
+    font-family: "Playfair Display", serif;
+}
+
+@mixin fontRoboto ($fs, $fw) {
+    font-size: $fs;
+    font-weight: $fw;
+    font-family: "Roboto", sans-serif;
+}
+
+@mixin fontBitter ($fs, $fw) {
+    font-size: $fs;
+    font-weight: $fw;
+    font-family: "Bitter", serif;
+}

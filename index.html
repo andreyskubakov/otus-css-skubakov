@@ -21,27 +21,53 @@
 
         <nav>
             <ul class="navbar">
-                <li class="navbar-item"><a href="#biography">Biography</a></li>
-                <li class="navbar-item"><a href="#designers">Designers</a></li>
-                <li class="navbar-item"><a href="#testimonials">Testimonials</a></li>
-                <li class="navbar-item navbar-item4"><a href="#strong-points">Strong points</a></li>
-            </ul>
-
-            <ul class="navbar__bottom-menu">
-                <li class="navbar__item_small"><a href="#biography">B</a></li>
-                <li class="navbar__item_small"><a href="#designers">D</a></li>
-                <li class="navbar__item_small"><a href="#testimonials">T</a></li>
-                <li class="navbar__item_small"><a href="#strong-points">S</a></li>
+                <li class="navbar__item"><a href="#biography">Biography</a></li>
+                <li class="navbar__item"><a href="#designers">Designers</a></li>
+                <li class="navbar__item"><a href="#testimonials">Testimonials</a></li>
+                <li class="navbar__item navbar__item4"><a href="#strong-points">Strong points</a></li>
+                <li class="feedback"><img src="./image/message.svg" alt="Облако сообщения"></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
+
+        <div class="modal modal-display">
+
+            <form action="#" class="form">
+                <h3 class="form__title">Get in touch</h3>
+
+                <p class="form__question">Do you have any questions? Have something to say? Don't be shy, write to
+                    us:</p>
+
+                <label for="form__name" class="form__name-label">Name
+                    <input type="text" name="name" id="form__name" placeholder="3+ Characters" required>
+                </label>
+
+
+                <label for="form__email" class="form__email-label">E-mail
+                    <input type="email" name="email" id="form__email" placeholder="name@email.com" required>
+                </label>
+
+
+                <label for="form__comment" class="form__email-textarea">Comment
+                    <textarea name="comment" id="form__comment" placeholder="Some text..." required></textarea>
+                </label>
+
+
+                <div class="form__bottons">
+                    <button class="btn btn-display">Cancel</button>
+                    <button class="btn form__btn-send">Send</button>
+                </div>
+            </form>
+        </div>
+
         <div class="container">
 
-            <div class="h1-container">
+            <div class="container__h1">
                 <h1>Mod Studio</h1>
-                <p class="h1-paragraph">Modern Web Studio</p>
+                <p class="paragraph__h1">Modern Web Studio</p>
             </div>
 
         </div>
@@ -49,28 +75,29 @@
         <!-- Блок о  Katya Mills-->
         <section class="biography" id="biography">
 
-            <div class="container-img-p">
-                <img src="./image/woman-in-heater.jpg" class="container-img-p-desktop" alt="Женщина в шляпе на песке">
-                <img src="./image/woman-in-heater-350.png" class="container-img-p-mob-350"
+            <div class="biography__container-img">
+                <img src="./image/woman-in-heater.jpg" class="biography__container-img_desktop"
+                    alt="Женщина в шляпе на песке">
+                <img src="./image/woman-in-heater-350.png" class="biography__container-img_mobile"
                     alt="Женщина в шляпе на песке">
             </div>
 
-            <p class="biography-paragraph">Biography</p>
+            <p class="biography__paragraph">Biography</p>
 
 
-            <div class="container-biography">
+            <div class="biography__container">
                 <h2>Katya<br> Mills</h2>
-                <p class="h2-paragraph">Art Director<br>
+                <p class="biography__role-list">Art Director<br>
                     Scenography / Styling / Creative Photography / Design</p>
 
 
-                <div class="h2-container-350">
+                <div class="biography__h2_mobile">
                     <h2>-Katya Mills</h2>
                 </div>
 
 
-                <div class="header-biography-350">
-                    <div class="h2-paragraph-350">
+                <div class="biography__header_mobile">
+                    <div class="biography__role-list_mobile">
                         <ul>
                             <li>Art Director</li>
                             <li>- Scenography</li>
@@ -80,15 +107,15 @@
                         </ul>
                     </div>
 
-                    <p class="biography-paragraph-350">Biography</p>
+                    <p class="biography__paragraph_mobile">Biography</p>
                 </div>
 
-                <div class="blockquote-container">
-                    <div class="black-rectangle">
+                <div class="biography__blockquote-container">
+                    <div class="biography__black-rectangle">
 
                     </div>
 
-                    <blockquote class="biography-blockquote">
+                    <blockquote class="biography__blockquote">
                         “The more I deal with the work<br> as something that is my
                         own,<br>
                         as something that is
@@ -96,7 +123,7 @@
                         more successful it
                         is.”</blockquote>
 
-                    <blockquote class="biography-blockquote-350">
+                    <blockquote class="biography__blockquote_mobile">
                         “The more I deal with<br>
                         the work as something that is<br>
                         my own,<br>
@@ -116,36 +143,36 @@
 
             <h3>Designers</h3>
 
-            <div class="designers-list">
-                <div class="first-designers">
+            <div class="designers__list">
+                <div class="designers__first-designer">
                     <img src="./image/woman-in-a-hat.jpg" alt="Женщина с шапке"
-                        class="designer-img first-designers-desktop">
+                        class="designers__img designers__first-designer_desktop">
 
                     <img src="./image/woman-in-a-hat-350.jpg" alt="Женщина с шапке"
-                        class="designer-img first-designers-mob">
+                        class="designers__img designers__first-designer_mobile">
 
-                    <p class="designer-name">Jess Wonder</p>
-                    <p class="designer-name-p">
-                        <span class="designer-from">From/</span> Be more flower<br>
-                        <span class="designer-skills">Skills/</span> Design Strategy / Marketing
+                    <p class="designers__name">Jess Wonder</p>
+                    <p class="designers__name-p">
+                        <span class="designers__from">From/</span> Be more flower<br>
+                        <span class="designers__skills">Skills/</span> Design Strategy / Marketing
                     </p>
                 </div>
 
-                <div class="second-designers">
-                    <img src="./image/woman-with-bag.jpg" alt="Женщина с сумкой" class="designer-img">
-                    <p class="designer-name">Kameron Clein</p>
-                    <p class="designer-name-p">
-                        <span class="designer-from">From/</span> Be more flower<br>
-                        <span class="designer-skills">Skills/</span> Design Strategy / Marketing
+                <div class="designers__second-designer">
+                    <img src="./image/woman-with-bag.jpg" alt="Женщина с сумкой" class="designers__img">
+                    <p class="designers__name">Kameron Clein</p>
+                    <p class="designers__name-p">
+                        <span class="designers__from">From/</span> Be more flower<br>
+                        <span class="designers__skills">Skills/</span> Design Strategy / Marketing
                     </p>
                 </div>
 
-                <div class="third-designer">
-                    <img src="./image/woman-with-books.jpg" alt="Женщина с книгами" class="designer-img">
-                    <p class="designer-name">Louisse red</p>
-                    <p class="designer-name-p">
-                        <span class="designer-from">From/</span> Be more flower<br>
-                        <span class="designer-skills">Skills/</span> Design Strategy / Marketing
+                <div class="designers__third-designer">
+                    <img src="./image/woman-with-books.jpg" alt="Женщина с книгами" class="designers__img">
+                    <p class="designers__name">Louisse red</p>
+                    <p class="designers__name-p">
+                        <span class="designers__from">From/</span> Be more flower<br>
+                        <span class="designers__skills">Skills/</span> Design Strategy / Marketing
                     </p>
                 </div>
             </div>
@@ -154,20 +181,20 @@
         <!-- Блок о кофейне -->
         <section class="testimonials" id="testimonials">
 
-            <div class="testimonials-links-list">
-                <div class="testimonials-first-link">
-                    <p class="creativity-p">Creativity</p>
-                    <a href="#" class="creativity-link">www.whitepapers.com</a>
+            <div class="testimonials__links-list">
+                <div class="testimonials__first-link">
+                    <p class="testimonials__creativity-p">Creativity</p>
+                    <a href="#" class="testimonials__creativity-link">www.whitepapers.com</a>
                 </div>
 
-                <div class="testimonials-second-link">
-                    <p class="creativity-p">Creativity</p>
-                    <a href="#" class="creativity-link">www.whitepapers.com</a>
+                <div class="testimonials__second-link">
+                    <p class="testimonials__creativity-p">Creativity</p>
+                    <a href="#" class="testimonials__creativity-link">www.whitepapers.com</a>
                 </div>
 
-                <div class="testimonials-third-link">
-                    <p class="website-p">Website</p>
-                    <a href="#" class="website-link">www.whitepapers.com</a>
+                <div class="testimonials__third-link">
+                    <p class="testimonials__website-p">Website</p>
+                    <a href="#" class="testimonials__website-link">www.whitepapers.com</a>
                 </div>
             </div>
 
@@ -176,14 +203,14 @@
 
             <h3>Testimonials</h3>
 
-            <div class="container-blockquote">
-                <blockquote class="testimonials-blockquote">I just really want to do good work and work with some
+            <div class="testimonials__container-blockquote">
+                <blockquote class="testimonials__blockquote">I just really want to do good work and work with some
                     great
                     people, people who challenge me.
                 </blockquote>
 
-                <img src="./image/bag.jpg" alt="Сумка в руке девушки" class="container-blockquote-img-desktop">
-                <img src="./image/bag-350.jpg" alt="Сумка в руке девушки" class="container-blockquote-img-mob">
+                <img src="./image/bag.jpg" alt="Сумка в руке девушки" class="testimonials__blockquote-img_desktop">
+                <img src="./image/bag-350.jpg" alt="Сумка в руке девушки" class="testimonials__blockquote-img_mobile">
 
             </div>
         </section>
@@ -192,44 +219,58 @@
 
             <h3>Strong points</h3>
 
-            <div class="strong-points-items">
+            <div class="strong-points__items">
                 <img src="./image/laptop-on-table.jpg" alt="Ноутбук на столе">
                 <img src="./image/sfot-chair.jpg" alt="Мягкое кресло">
-                <div class="strengths-list">
-                    <h3 class="strengths">Strengths</h3>
+                <div class="strong-points__strengths-list">
+                    <h3 class="strong-points__strengths">Strengths</h3>
                     <nav>
-                        <ul class="navbar-strengths">
-                            <li class="navbar-strengths-item">Interiors</li>
-                            <li class="navbar-strengths-item">Outdoors</li>
-                            <li class="navbar-strengths-item">Portraits</li>
-                            <li class="navbar-strengths-item">Styling</li>
-                            <li class="navbar-strengths-item">Events</li>
-                            <li class="navbar-strengths-item">Architecture</li>
-                            <li class="navbar-strengths-item">Design</li>
-                            <li class="navbar-strengths-item">Celebrations</li>
-                            <li class="navbar-strengths-item">Fashion</li>
-                            <li class="navbar-strengths-item">Nature</li>
+                        <ul class="strong-points__strengths-items">
+                            <li class="strong-points__strengths-item">Interiors</li>
+                            <li class="strong-points__strengths-item">Outdoors</li>
+                            <li class="strong-points__strengths-item">Portraits</li>
+                            <li class="strong-points__strengths-item">Styling</li>
+                            <li class="strong-points__strengths-item">Events</li>
+                            <li class="strong-points__strengths-item">Architecture</li>
+                            <li class="strong-points__strengths-item">Design</li>
+                            <li class="strong-points__strengths-item">Celebrations</li>
+                            <li class="strong-points__strengths-item">Fashion</li>
+                            <li class="strong-points__strengths-item">Nature</li>
                         </ul>
                     </nav>
                 </div>
 
 
-                <img src="./image/coffee-house.jpg" alt="Фото кофейни" class="coffee-house-img">
+                <img src="./image/coffee-house.jpg" alt="Фото кофейни" class="strong-points__coffee-house-img">
             </div>
         </section>
+
+        <nav>
+            <ul class="bottom-menu">
+                <li class="bottom-menu__item_mobile"><a href="#biography">B</a></li>
+                <li class="bottom-menu__item_mobile"><a href="#designers">D</a></li>
+                <li class="bottom-menu__item_mobile"><a href="#testimonials">T</a></li>
+                <li class="bottom-menu__item_mobile"><a href="#strong-points">S</a></li>
+            </ul>
+        </nav>
+
+
     </main>
 
     <footer>
 
         <address>
-            <p class="phone-number">+7 921 123-45-67</p><br>
-            <a href="mailto:info@modstudio.com" class="e-mail">info@modstudio.com</a>
+            <p class="footer__phone-number">+7 921 123-45-67</p><br>
+            <a href="mailto:info@modstudio.com" class="footer__e-mail">info@modstudio.com</a>
         </address>
 
-        <p class="footer-product">A product of <span class="footer-mod">Mod</span></p>
+        <p class="footer__product">A product of <span class="footer__mod">Mod</span></p>
 
-        <p class="footer-rights">© 2023 Mod Media. All rights reserved</p>
+        <p class="footer__rights">© 2023 Mod Media. All rights reserved</p>
     </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/af7efb9755.js" crossorigin="anonymous"></script>
 
 </body>
 
