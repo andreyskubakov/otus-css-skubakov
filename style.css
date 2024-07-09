@@ -4,45 +4,38 @@
   src: url(./fonts/Roboto/Roboto-Regular.ttf) format("ttf");
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Roboto";
   src: url(./fonts/Roboto/Roboto-Medium.ttf) format("ttf");
   font-weight: 500;
 }
-
 @font-face {
   font-family: "Roboto";
   src: url(./fonts/Roboto/Roboto-Bold.ttf) format("ttf");
   font-weight: 700;
 }
-
 /* Playfair Display fonts */
 @font-face {
   font-family: "Playfair Display";
   src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf) format("ttf");
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Playfair Display";
   src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf) format("ttf");
   font-weight: 500;
 }
-
 @font-face {
   font-family: "Playfair Display";
   src: url(./fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf) format("ttf");
   font-weight: 600;
 }
-
 /* Bitter fonts */
 @font-face {
   font-family: "Bitter";
   src: url(./fonts/Bitter/static/Bitter-Regular.ttf) format("ttf");
   font-weight: 400;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -77,7 +70,7 @@ header {
   width: 100%;
 }
 
-header>nav {
+header > nav {
   vertical-align: middle;
   float: right;
   margin: 54px 20px 54px 0;
@@ -164,6 +157,10 @@ address {
 
 .feedback:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.body {
+  overflow: hidden;
 }
 
 .modal {
@@ -257,7 +254,7 @@ textarea {
   justify-content: center;
   align-items: center;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
 }
 
 .form__name-label:after,
@@ -396,7 +393,7 @@ textarea {
   display: none;
 }
 
-.biography__container-img>img {
+.biography__container-img > img {
   width: 100%;
   height: auto;
 }
@@ -405,7 +402,7 @@ textarea {
   display: none;
 }
 
-.biography__h2_mobile>h2 {
+.biography__h2_mobile > h2 {
   display: none;
 }
 
@@ -461,7 +458,7 @@ textarea {
   font-family: "Roboto", sans-serif;
 }
 
-.designers>h3 {
+.designers > h3 {
   margin-left: 10vw;
   margin-bottom: 30px;
 }
@@ -540,7 +537,7 @@ textarea {
   grid-column: 2/3;
 }
 
-.testimonials>h3 {
+.testimonials > h3 {
   transform: rotate(-90deg) translateX(30%) translateY(130%);
   font-weight: 700;
   grid-row: 1/2;
@@ -556,7 +553,7 @@ textarea {
   grid-column: 3/4;
 }
 
-.testimonials__blockquote>img {
+.testimonials__blockquote > img {
   display: inline-block;
   margin-top: 40px;
 }
@@ -576,7 +573,7 @@ textarea {
   margin-bottom: 150px;
 }
 
-.strong-points>h3 {
+.strong-points > h3 {
   margin-left: 10vw;
   margin-bottom: 30px;
 }
@@ -597,7 +594,7 @@ textarea {
   font-size: 34px;
 }
 
-.strong-points__strengths-list>nav {
+.strong-points__strengths-list > nav {
   display: flex;
   justify-content: center;
   margin-top: 28px;
@@ -648,12 +645,9 @@ textarea {
   .logo-name {
     display: none;
   }
-
   .navbar {
     display: none;
   }
-
-
   .bottom-menu {
     bottom: 0;
     left: 0;
@@ -670,91 +664,73 @@ textarea {
     background-color: #fff;
     z-index: 10;
   }
-
-
   .bottom-menu__item_mobile {
     list-style-type: none;
     font-size: 40px;
     font-weight: 400;
     font-family: "Bitter", serif;
   }
-
   .bottom-menu__item_mobile a {
     text-decoration: none;
     color: #000;
   }
-
   .bottom-menu__item_mobile a:hover {
     font-weight: 700;
     text-decoration: underline;
   }
-
   h1 {
     font-weight: 400;
     font-size: 60px;
     margin: 0 auto;
   }
-
   .container {
     background-image: url(./image/h1-background-350.png);
     margin-bottom: 80px;
   }
-
   .paragraph__h1 {
     font-size: 18px;
   }
-
   .container__h1 {
     width: 100vw;
     height: 50vh;
     top: 20%;
     padding-top: 20vh;
   }
-
   .biography__role-list {
     display: none;
   }
-
   .biography {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-
   .biography__container-img {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .biography__paragraph {
     transform: none;
     margin-bottom: 30px;
     text-align: right;
     order: -1;
   }
-
   .biography__container {
     margin-left: 0;
   }
-
   .biography__container-img {
     order: 4;
   }
-
   .biography__container-img_desktop {
     display: none;
   }
-
   .biography__container-img_mobile {
     display: block;
   }
-
-  .biography__container>h2 {
+  .biography__container > h2 {
     display: none;
   }
-
-  .biography__h2_mobile>h2 {
+  .biography__h2_mobile > h2 {
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -762,24 +738,20 @@ textarea {
     font-weight: 400;
     font-family: "Playfair Display", serif;
   }
-
   .biography__h2_mobile {
     order: 3;
   }
-
   .biography__paragraph {
     display: none;
   }
-
   .biography__header_mobile {
     width: 90vw;
     display: flex;
     justify-content: space-around;
     -moz-column-gap: 16px;
-    column-gap: 16px;
+         column-gap: 16px;
     margin-bottom: 57px;
   }
-
   .biography__paragraph_mobile {
     display: inline-block;
     text-align: right;
@@ -787,7 +759,6 @@ textarea {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
   }
-
   .biography__role-list_mobile {
     display: inline-block;
     order: -1;
@@ -795,19 +766,15 @@ textarea {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
   }
-
-  .biography__role-list_mobile>ul>li {
+  .biography__role-list_mobile > ul > li {
     list-style-type: none;
   }
-
   .biography__black-rectangle {
     display: none;
   }
-
   .biography__blockquote {
     display: none;
   }
-
   .biography__blockquote_mobile {
     display: flex;
     justify-content: center;
@@ -818,72 +785,60 @@ textarea {
     font-weight: 300;
     font-family: "Bitter", serif;
   }
-
   .designers__list {
     align-items: center;
     margin-left: 5vw;
     overflow-x: scroll;
   }
-
   .designers__first-designer_desktop {
     display: none;
   }
-
   .designers__first-designer_mobile {
     display: block;
   }
-
-  .designers__first-designer>img,
-  .designers__second-designer>img,
-  .designers__third-designer>img {
+  .designers__first-designer > img,
+  .designers__second-designer > img,
+  .designers__third-designer > img {
     max-height: 437px;
     max-width: 310px;
   }
-
   .testimonials {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 80px;
   }
-
-  .testimonials>img {
+  .testimonials > img {
     display: none;
   }
-
-  .testimonials>h3 {
+  .testimonials > h3 {
     transform: none;
     margin-bottom: 30px;
     margin-left: 10vw;
   }
-
   .testimonials__container-blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .testimonials__links-list {
     display: flex;
     flex-wrap: wrap;
     -moz-column-gap: 3vw;
-    column-gap: 3vw;
+         column-gap: 3vw;
     order: 3;
     margin-top: 30px;
     margin: 0 auto;
   }
-
   .testimonials__first-link,
   .testimonials__second-link,
   .testimonials__third-link {
     transform: none;
   }
-
-  .testimonials>h3 {
+  .testimonials > h3 {
     text-align: right;
     margin-right: 5vw;
   }
-
   .testimonials__blockquote {
     text-align: center;
     width: 90vw;
@@ -893,61 +848,50 @@ textarea {
     font-weight: 300;
     font-family: "Bitter", serif;
   }
-
   .testimonials__blockquote-img_desktop {
     display: none;
   }
-
   .testimonials__blockquote-img_mobile {
     display: inline-block;
     width: 90vw;
     margin-bottom: 5vh;
   }
-
   .strong-points {
     overflow-x: scroll;
   }
-
-  .strong-points>h3 {
+  .strong-points > h3 {
     text-align: left;
     margin-left: 5vw;
   }
-
   .strong-points {
     margin-bottom: 80px;
   }
-
   .strong-points__strengths-list {
     order: -1;
   }
-
   .strong-points__strengths-items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     row-gap: 8px;
   }
-
   .strong-points__strengths {
     font-size: 46px;
     font-weight: 400;
     font-family: "Playfair Display", serif;
   }
-
   .strong-points__strengths-item {
     line-height: 28.8px;
     font-size: 24px;
     font-weight: 400;
     font-family: "Bitter", serif;
   }
-
   footer {
     display: flex;
     flex-direction: column-reverse;
     align-items: normal;
     justify-content: center;
   }
-
   address {
     display: flex;
     flex-direction: column;
@@ -955,31 +899,24 @@ textarea {
     justify-content: center;
     margin-bottom: 8px;
   }
-
   .footer__product {
     font-size: 18px;
     order: 3;
     text-align: right;
     margin-right: 5vw;
   }
-
   .footer__phone-number {
     margin-bottom: 0;
   }
-
   .footer__rights {
     order: -1;
     margin-right: 0;
     margin-left: 2vw;
   }
 }
-
 @media (width: 768px) {
-
   .designers__list,
   .strong-points {
     overflow-x: scroll;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
