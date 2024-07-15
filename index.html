@@ -63,11 +63,11 @@
             </form>
         </div>
 
-        <div class="container">
+        <div class="container-title">
 
-            <div class="container__h1">
+            <div class="container-title__title">
                 <h1>Mod Studio</h1>
-                <p class="paragraph__h1">Modern Web Studio</p>
+                <p class="container-title__paragraph">Modern Web Studio</p>
             </div>
 
         </div>
@@ -76,11 +76,14 @@
         <section class="biography" id="biography">
 
             <div class="biography__container-img">
-                <img src="./image/woman-in-heater.jpg" class="biography__container-img_desktop"
-                    alt="Женщина в шляпе на песке">
-                <img src="./image/woman-in-heater-350.png" class="biography__container-img_mobile"
-                    alt="Женщина в шляпе на песке">
+                <picture>
+                    <source srcset="./image/woman-in-heater-350.png" media="(max-width: 768px)">
+                    <img src="./image/woman-in-heater.jpg" alt="Женщина в шляпе">
+                </picture>
             </div>
+
+
+
 
             <p class="biography__paragraph">Biography</p>
 
@@ -91,13 +94,13 @@
                     Scenography / Styling / Creative Photography / Design</p>
 
 
-                <div class="biography__h2_mobile">
+                <div class="biography__title biography__title_mobile">
                     <h2>-Katya Mills</h2>
                 </div>
 
 
-                <div class="biography__header_mobile">
-                    <div class="biography__role-list_mobile">
+                <div class="biography__header biography__header_mobile">
+                    <div class="biography__role-list biography__role-list_mobile">
                         <ul>
                             <li>Art Director</li>
                             <li>- Scenography</li>
@@ -107,7 +110,7 @@
                         </ul>
                     </div>
 
-                    <p class="biography__paragraph_mobile">Biography</p>
+                    <p class="biography__paragraph biography__paragraph_mobile">Biography</p>
                 </div>
 
                 <div class="biography__blockquote-container">
@@ -123,7 +126,7 @@
                         more successful it
                         is.”</blockquote>
 
-                    <blockquote class="biography__blockquote_mobile">
+                    <blockquote class="biography__blockquote biography__blockquote_mobile">
                         “The more I deal with<br>
                         the work as something that is<br>
                         my own,<br>
@@ -145,11 +148,10 @@
 
             <div class="designers__list">
                 <div class="designers__first-designer">
-                    <img src="./image/woman-in-a-hat.jpg" alt="Женщина с шапке"
-                        class="designers__img designers__first-designer_desktop">
-
-                    <img src="./image/woman-in-a-hat-350.jpg" alt="Женщина с шапке"
-                        class="designers__img designers__first-designer_mobile">
+                    <picture>
+                        <source srcset="./image/woman-in-a-hat-350.jpg" media="(max-width: 768px)">
+                        <img src="./image/woman-in-a-hat.jpg" alt="Женщина в шапке">
+                    </picture>
 
                     <p class="designers__name">Jess Wonder</p>
                     <p class="designers__name-p">
@@ -209,8 +211,10 @@
                     people, people who challenge me.
                 </blockquote>
 
-                <img src="./image/bag.jpg" alt="Сумка в руке девушки" class="testimonials__blockquote-img_desktop">
-                <img src="./image/bag-350.jpg" alt="Сумка в руке девушки" class="testimonials__blockquote-img_mobile">
+                <picture>
+                    <source srcset="./image/bag-350.jpg" media="(max-width: 768px)">
+                    <img src="./image/bag.jpg" alt="Сумка в руке девушки">
+                </picture>
 
             </div>
         </section>
@@ -247,17 +251,17 @@
 
         <nav>
             <ul class="bottom-menu">
-                <li class="bottom-menu__item_mobile"><a href="#biography">B</a></li>
-                <li class="bottom-menu__item_mobile"><a href="#designers">D</a></li>
-                <li class="bottom-menu__item_mobile"><a href="#testimonials">T</a></li>
-                <li class="bottom-menu__item_mobile"><a href="#strong-points">S</a></li>
+                <li class="bottom-menu__item bottom-menu__item_mobile"><a href="#biography">B</a></li>
+                <li class="bottom-menu__item bottom-menu__item_mobile"><a href="#designers">D</a></li>
+                <li class="bottom-menu__item bottom-menu__item_mobile"><a href="#testimonials">T</a></li>
+                <li class="bottom-menu__item bottom-menu__item_mobile"><a href="#strong-points">S</a></li>
             </ul>
         </nav>
 
 
     </main>
 
-    <footer>
+    <footer class="footer">
 
         <address>
             <p class="footer__phone-number">+7 921 123-45-67</p><br>
