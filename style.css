@@ -482,6 +482,10 @@ textarea {
   margin-bottom: 150px;
 }
 
+.designers__name-first {
+  margin-top: 24px;
+}
+
 .designers__img {
   margin-bottom: 24px;
 }
@@ -872,10 +876,6 @@ textarea {
     display: none;
   }
 
-  .strong-points {
-    overflow-x: scroll;
-  }
-
   .strong-points>h3 {
     text-align: left;
     margin-left: 5vw;
@@ -940,12 +940,23 @@ textarea {
     margin-right: 0;
     margin-left: 2vw;
   }
-}
-
-@media (width: 768px) {
 
   .designers__list,
-  .strong-points {
+  .strong-points__items {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 1295px) {
+
+  .designers__list {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 1450px) {
+
+  .strong-points__items {
     overflow-x: scroll;
   }
 }
